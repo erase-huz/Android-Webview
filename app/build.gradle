@@ -14,7 +14,7 @@ android {
     compileSdkVersion 31
     defaultConfig {
         manifestPlaceholders = [
-                onesignal_app_id: '<BURAYA ONESIGNAL ID>',
+                onesignal_app_id: 'f1c1418c-308e-49c2-b559-09bb1d706e86',
                 // Project number pulled from dashboard, local value is ignored.
                 onesignal_google_project_number: '<BURAYA PROJECT NUMBER>'] //TODO ONESIGNAL ADD
         applicationId "com.zeniwork.webviewproject"
