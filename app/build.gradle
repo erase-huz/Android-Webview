@@ -3,7 +3,7 @@ buildscript {
         maven { url 'https://plugins.gradle.org/m2/'}
     }
     dependencies {
-        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.6'
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.13.4, 0.99.99]'
     }
 }
 apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
@@ -16,7 +16,7 @@ android {
         manifestPlaceholders = [
                 onesignal_app_id: 'f1c1418c-308e-49c2-b559-09bb1d706e86',
                 // Project number pulled from dashboard, local value is ignored.
-                onesignal_google_project_number: '<BURAYA PROJECT NUMBER>'] //TODO ONESIGNAL ADD
+                onesignal_google_project_number: 'REMOTE'] //TODO ONESIGNAL ADD
         applicationId "com.zeniwork.webviewproject"
         minSdkVersion 24
         targetSdkVersion 31
