@@ -11,15 +11,15 @@ apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 31
     defaultConfig {
         manifestPlaceholders = [
                 onesignal_app_id: '<BURAYA ONESIGNAL ID>',
                 // Project number pulled from dashboard, local value is ignored.
                 onesignal_google_project_number: '<BURAYA PROJECT NUMBER>'] //TODO ONESIGNAL ADD
         applicationId "com.zeniwork.webviewproject"
-        minSdkVersion 21
-        targetSdkVersion 29
+        minSdkVersion 24
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
