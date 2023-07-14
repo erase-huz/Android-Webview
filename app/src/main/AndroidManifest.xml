@@ -18,7 +18,7 @@
         tools:ignore="GoogleAppIndexingWarning">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="<ADMOB UYGULAMA ID>"/><!-- TODO Admob Uygulama id'si değiştirilmesi lazım!! -->
+            android:value="ca-app-pub-6856969216927931~5906901057"/><!-- TODO Admob Uygulama id'si değiştirilmesi lazım!! -->
         <activity
             android:name="com.mrntlu.webviewproject.MainActivity"
             android:screenOrientation="portrait"
