@@ -24,12 +24,11 @@
             android:name="com.mrntlu.webviewproject.MainActivity"
             android:screenOrientation="portrait"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" 
-                    android:exported="true"/>
+            <intent-filter
+                android:exported="true>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"
-                    android:exported="true"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>
