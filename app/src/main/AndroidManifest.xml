@@ -15,17 +15,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning"
+        android:exported="true">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:exported="true"
             android:value="ca-app-pub-6856969216927931~5906901057"/><!-- TODO Admob Uygulama id'si değiştirilmesi lazım!! -->
         <activity
             android:name="com.mrntlu.webviewproject.MainActivity"
             android:screenOrientation="portrait"
-            android:exported="true">
-            <intent-filter
-                android:exported="true">
+            android:exported="true" >
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER"/>
