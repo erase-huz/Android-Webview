@@ -20,8 +20,8 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-6856969216927931~5906901057"/>
         <activity
+            android:name=".MainActivity"
             android:exported="true"
-            android:name="com.mrntlu.webviewproject.MainActivity"
             android:screenOrientation="portrait"
             >
             <intent-filter>
